@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        form {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Ficha de inscrição</legend>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Basicos</legend>
+
+            <label>Nome:</label>
+            <input type="text">
+            <label>DT.Nasc:</label>
+            <input type="date"><br>
+            <fieldset>
+            <legend><strong>Sexo</strong></legend>
+            <input type="radio">
+            <label>Masculino</label>
+            <input type="radio">
+            <label>Feminino</label>
+        </fieldset>
+            <fieldset>
+            <legend> <strong>Assinale os programas de computador que voce domina:</strong></legend>
+            <input type="checkbox">
+            <label>Word</label>
+            <input type="checkbox">
+            <label>Ecxek</label>
+            <input type="checkbox">
+            <label>Power point</label>
+            <input type="checkbox">
+            <label>access</label>
+          </fieldset>
+          <fieldset>
+            <legend><strong>Cargo:</strong></legend>
+            <select name="cargos" required="required">
+                <option value="analista">Analista</option>
+                <option value="prog">Programador</option>
+                <option value="supr">Suporte</option>
+                <option value="ptr">Patrão</option>
+                <br>
+            </fieldset>
+            </select>
+        
+            <button type="submit">ENVIAR</button>
+            <button type="summit">Limpar</button>
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
